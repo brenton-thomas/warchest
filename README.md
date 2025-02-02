@@ -12,6 +12,7 @@ It is as simple as I can make it.
 Fixed supply of a billion tokens, half held as a fund, half on the market.
 
 The economics is a circulation model.
+
 To put value into the token requires actions that gain attention, do nothing and the whole thing evaporates.
 Spending creates hype increasing value and the ability to do work, but perversely acting to dilute supply.
 To counter dilution a business rule exists demanding tokens be bought back as convenient to restore the 50/50 balance.
