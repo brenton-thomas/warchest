@@ -7,6 +7,7 @@ import {ERC20Permit} from "@openzeppelin/contracts/token/ERC20/extensions/ERC20P
 
 //import "hardhat/console.sol";
 
+
 /// @custom:security-contact security@brentonthomas.com
 
 contract Warchest is ERC20, ERC20Permit {
