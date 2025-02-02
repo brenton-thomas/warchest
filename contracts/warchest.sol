@@ -20,6 +20,5 @@ contract Warchest is ERC20, ERC20Permit {
         uint256 INITIAL_SUPPLY = ONE_BILLION * GWEI_MULT;
 
         super._mint(msg.sender, INITIAL_SUPPLY);
-
     }
 }
