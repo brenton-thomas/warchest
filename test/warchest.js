@@ -53,14 +53,16 @@ describe("TEST>> Warchest", function () {
 
         it("the correct initial value should be assigned", async function () {
 
-            //care here the number of tokens is in GWEI_MULT unoits
+            //care here the number of tokens is in GWEI_MULT units
             const { warchest, owner } = await loadFixture(deployInitialTestFixture);
             const ownerBalance = await warchest.balanceOf(owner.address);
-            expect(await warchest.totalSupply()).to.equal(ownerBalance);
+
+            x=await warchest.totalSupply();
+            expect(x).to.equal(ownerBalance);
       
-            debug_trace("Deployment: warchest.totalSupply()", await warchest.totalSupply() );
-            debug_trace("Deployment: owner.address", owner.address );
-            debug_trace("Deployment: ownerBalance", ownerBalance );
+            debug_trace("Deployment: owner.address", owner.address);
+            debug_trace("Deployment: warchest.totalSupply()", x); 
+            debug_trace("Deployment: ownerBalance", ownerBalance);
         })
 
         it("its name should be WARCHEST", async function () {
@@ -85,7 +87,7 @@ describe("TEST>> Warchest", function () {
 
         it("its decimals should be 18", async function () {
 
-            //care here the number of tokens is in GWEI_MULT unoits
+            //care here the number of tokens is in GWEI_MULT units
             const { warchest, owner } = await loadFixture(deployInitialTestFixture);
             
             x=await warchest.decimals();
