@@ -6,10 +6,10 @@ drives people towards the coin. This in turns provides funding for the underlyin
 
 In this case the purpose is consiututional challenge of the actions of Government. The sort of thing that is fairly sure to create hype, in turn increasing the value of the token that pays for lawyers, in turn further increasing the "hype" around the issue.
 
-#Technical
+# Technical
 It is as simple as I can make it, a bog standard OpenZepplin ERC20 token built in a Hardhat environment.
 
-#Economics
+# Economics
 Fixed supply of a billion tokens, half held as a fund, half on the market.
 
 The economics is a circulation model.
